@@ -1,4 +1,4 @@
-from report_framework import (
+from src.reporter.report_framework import (
     ReportTheme,
     ChartType,
     ReportConfig
@@ -10,7 +10,7 @@ from datetime import datetime
 
 def exemplo_completo():
     """Relatório com todas as configurações personalizadas"""
-    from report_framework import ReportBuilder
+    from src.reporter.report_framework import ReportBuilder
     
     # Configuração detalhada
     config = ReportConfig(

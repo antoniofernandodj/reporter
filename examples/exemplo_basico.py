@@ -1,4 +1,4 @@
-from report_framework import (
+from src.reporter.report_framework import (
     quick_report,
 )
 import pandas as pd

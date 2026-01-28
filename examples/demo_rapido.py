@@ -8,7 +8,7 @@ um relatório profissional com o ReportMaster.
 Execute: python demo_rapido.py
 """
 
-from report_framework import create_report, ReportTheme, ChartType
+from src.reporter.report_framework import create_report, ReportTheme, ChartType
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
@@ -23,7 +23,7 @@ print()
 # ============================================================================
 print("📊 Criando relatório simples (3 linhas de código)...")
 
-from report_framework import quick_report
+from src.reporter.report_framework import quick_report
 
 dados_simples = pd.DataFrame({
     'Produto': ['Notebook', 'Mouse', 'Teclado', 'Monitor', 'Webcam'],
